@@ -7,38 +7,118 @@
   <body>
     <a-scene>
 
-      <a-assets>
-          <img id="texture" src="https://i.ibb.co/47mcNx1/Bildschirmfoto-2020-05-01-um-00-55-38.png">
-          <img id="sky" src="https://i.ibb.co/8DRx2TV/himmel-blau.jpg">
+      <a-assets><img id="texture" src="https://i.ibb.co/47mcNx1/Bildschirmfoto-2020-05-01-um-00-55-38.png"></a-assets>
 
-        </a-assets>
+      <a-sky color="white"></a-sky>
 
-      <a-sky src="#sky" rotation="0 -90 0"></a-sky>
+      <a-plane color="blue" position="0 -1 -30" height="100" width="100" rotation="-90 0 0"></a-plane>
 
 
-      <a-plane src="#texture" position="0 -5 -15"height="10" width="10" rotation="-90 0 0"></a-plane>
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="-25 0 -15"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
 
-<!-- hinten -->
-      <a-plane src="#texture" position="0 0 -20" height="10" width="10"></a-plane>
-<!-- rechts -->
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="-20 0 -30"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
 
-      <a-plane src="#texture" position="5 0 -15" height="10" width="10" rotation="0 -90 0"></a-plane>
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="-15 0 -10"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
 
-<!-- links -->
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="-12 0 -15"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
 
-      <a-plane src="#texture" position="-5 0 -15" height="10" width="10" rotation="0 90 0"></a-plane>
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="-9 0 -20"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
 
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="-6 0 -5"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
 
-<!-- oben -->
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="-3 0 -30"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
 
-      <a-plane  src="#texture" position="0 5 -15" height="10" width="10" rotation="90 0 0"></a-plane>
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="0 0 -15"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
 
-<!-- vorne
-      <a-plane color="white" position="0 0 -10" height="10" width="10"></a-plane>
-      -->
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="3 0 -20"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
+
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="6 0 -5"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
+
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="9 0 -15"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
+
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="12 0 -30"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
+
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="15 0 -20"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
+
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="18 0 -10"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
+
+      <a-box src="#texture" width="3" height="3" depth="3"
+          position="21 0 -50"
+          rotation="0 0 0"
+          scale="1 1 1"
+          src="">
+        </a-box>
 
     </a-scene>
-
-
   </body>
 </html>
